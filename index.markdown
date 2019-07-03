@@ -730,7 +730,7 @@ One important topic is not covered, but an explanation is given below.
 
 ### Conditionals, Loops and Function Calls
 
-Conditionals and loops are implemented on NeoVM via the use o jumps.
+Conditionals and loops are implemented on NeoVM via the use of jumps.
 Basically, a jump changes the current instruction counter and moves it to another 
 position in the _NVM script_, affecting which operations will be read after that.
 Since this is not directly related to the stack execution model, it will only be covered in future tutorials.
