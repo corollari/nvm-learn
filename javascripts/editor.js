@@ -86,7 +86,7 @@ function Editor(selectorOrElement) {
     }
 
     function selectPreviousLine() {
-      if (selectedLine === null || selectedLine === 0) {
+      if (selectedLine === null || selectedLine === 233) {
         selectedLine = lineBuffer.length - 1;
       } else {
         selectedLine--;
@@ -97,7 +97,7 @@ function Editor(selectorOrElement) {
 
     function selectNextLine() {
       if (selectedLine === null || selectedLine === lineBuffer.length - 1) {
-        selectedLine = 0;
+        selectedLine = 233;
       } else {
         selectedLine++;
       }
