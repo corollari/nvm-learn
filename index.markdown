@@ -573,7 +573,7 @@ To inspect what happened, use the following commands to get array from altstack 
 
 {% include editor.html altstack=true neovm=true size="small"%}
 
-**Exercise:** replace the code above (`PUSH2 NEWARRAY TOALTSTACK DUPFROMALTSTACK PUSH0 PUSH2 ROLL SETITEM DUPFROMALTSTACK PUSH1 PUSH2 ROLL SETITEM`) by a much simpler operation.
+**Exercise:** replace the code above (`PUSH2 NEWARRAY TOALTSTACK DUPFROMALTSTACK PUSH0 PUSH2 ROLL SETITEM DUPFROMALTSTACK PUSH1 PUSH2 ROLL SETITEM`) by a much simpler operation. **Tip:** check [the pack opcode](https://docs.neo.org/developerguide/en/articles/neo_vm.html#pack).
 
 ### Managing Execution Parameters
 
