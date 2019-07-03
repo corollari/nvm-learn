@@ -569,7 +569,7 @@ _______________|________________________________|____________
 ```
 
 To inspect what happened, use the following commands to get array from altstack and pick inside it:
-`dupfromaltstack 0 pickitem` (gets first element), `drop`, `dupfromaltstack 1 pickitem` (gets second element).
+`dupfromaltstack push0 pickitem` (gets first element), `drop`, `dupfromaltstack push1 pickitem` (gets second element).
 
 {% include editor.html altstack=true neovm=true size="small"%}
 
