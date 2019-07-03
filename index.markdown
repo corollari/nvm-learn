@@ -424,7 +424,7 @@ How do we store information on a array?
 
 ### `setitem` (opcode `0xc4`)
 
-Opcode `setitem` consumes an Array pointer `p`, an index `i` and a value `v` from stack, and performs the following attribution: `(*p)[i] = v`.
+Opcode `setitem` consumes an Array pointer `p`, an index `i` and a value `v` from stack, and performs the following attribution: `p[i] = v`.
 So, after that, value `v` is stored at index `i` of `p`, and nothing is put back on stack (note that array is consumed in this operation, remember to `dup` it).
 
 How do we get information from an Array position?
