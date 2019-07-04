@@ -292,7 +292,7 @@ In next sections, we will see stack opcodes that receive parameters from stack.
 
 ### `pick` (opcode `0x79`)
 
-`pick` reads and drops the number at the top of the stack, which we will call `n`, and copies the `n`-th element to the top of the stack. Example:
+`pick` consumes top-stack value `n` and copies the `n`-th element to the top of the stack. Example:
 
     push1 push2 push3 push4 push1 pick
 
@@ -302,7 +302,7 @@ Resulting stack:
 
 ### `roll` (opcode `0x7a`)
 
-`roll` reads and drops the number at the top of the stack, which we will call `n`, and moves the `n`-th element to the top of the stack. Example:
+`roll` consumes top-stack value `n` and moves the `n`-th element to the top of the stack. Example:
 
     push1 push2 push3 push4 push1 roll
 
